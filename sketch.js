@@ -7,10 +7,6 @@ var counter = {
     text(this.number, 20, 40);
   },
 
-  update: function () {
-    this.addCount();
-  },
-
   addCount: function () {
     counter.number = counter.number + 1;
   },
