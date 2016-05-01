@@ -82,5 +82,5 @@ Timer.prototype = {
     var secondCounter = this.secondsElapsed() % 60; // % is the modulo operator
     if (secondCounter < 10) secondCounter = "0" + secondCounter;
     return ":" + secondCounter;
-  }
+  },
 };
