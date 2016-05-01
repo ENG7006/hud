@@ -53,8 +53,11 @@ var score = {
   },
 };
 
+setup = function() {
   createCanvas(600, 400);
 };
+
+draw = function() {
   background(100);
   ball.display();
   ball.update();
